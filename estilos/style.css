@@ -65,6 +65,30 @@ form > .campo {
     display: none;
 }
 
+.campo > i {
+    color: white;
+    /* background-color: black; */
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input {
+    background-color: darkgreen;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    
+    height: 100%;
+    border: 8px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10px) ;
+}
+
+.campo > input:focus-within {
+    background-color: white;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
